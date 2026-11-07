@@ -1,0 +1,144 @@
+<UserPreferences>
+	<Tool Name="SWB">
+		<PrefName="WB_Project">
+			<Key="runtimeediting,mode" Value="Editable" Editable="true"></Key>
+			<Key="runtimeediting,editable,howtorun" Value="Preprocess, then run (rewrites node input files)" Editable="true"></Key>
+			<Key="organization,hierarchical,project_output_location" Value="@STDB@" Editable="true"></Key>
+			<Key="organization,hierarchical,temp_node_location" Value="" Editable="true"></Key>
+			<Key="organization,hierarchical,link_input_files" Value="No" Editable="true"></Key>
+			<Key="organization,converter,command_files" Value="Yes" Editable="true"></Key>
+			<Key="organization,converter,save_backup" Value="Yes" Editable="true"></Key>
+			<Key="organization,converter,display_changes" Value="Yes" Editable="true"></Key>
+			<Key="organization,converter,display_log" Value="Yes" Editable="true"></Key>
+			<Key="organization,converter,result_files" Value="Relocate" Editable="true"></Key>
+			<Key="organization,gui,bg" Value="bisque" Editable="true"></Key>
+			<Key="organization,gui,fg" Value="<SystemDefault>" Editable="true"></Key>
+			<Key="consistency,InconsNodes" Value="Nothing" Editable="true"></Key>
+			<Key="consistency,RunInconsNodes" Value="Never" Editable="true"></Key>
+			<Key="deleting,BackupNodeFiles" Value="false" Editable="true"></Key>
+			<Key="safety,AutoSave" Value="0" Editable="true"></Key>
+			<Key="settings_misc,DatabasePollingIntervall" Value="1000" Editable="true"></Key>
+			<Key="settings_misc,ShowProjectLog" Value="true" Editable="true"></Key>
+			<Key="export,ExportClean" Value="false" Editable="true"></Key>
+			<Key="export,CompressData" Value="true" Editable="true"></Key>
+			<Key="export,EncryptData" Value="true" Editable="true"></Key>
+			<Key="export,EncryptKey" Value="swb" Editable="true"></Key>
+			<Key="export,ToFile,Separator" Value="," Editable="true"></Key>
+			<Key="export,ToFile,InclCol" Value="true" Editable="true"></Key>
+		</PrefName>
+		<PrefName="WB_table">
+			<Key="viewoptions,checkvirtual" Value="true" Editable="true"></Key>
+			<Key="viewoptions,option" Value="Parameter Values" Editable="true"></Key>
+			<Key="viewoptions,showtree" Value="true" Editable="true"></Key>
+			<Key="viewoptions,showexp" Value="false" Editable="true"></Key>
+			<Key="viewoptions,showparams" Value="false" Editable="true"></Key>
+			<Key="viewoptions,showvars" Value="true" Editable="true"></Key>
+			<Key="viewoptions,showpruned" Value="true" Editable="true"></Key>
+			<Key="viewoptions,shownn" Value="false" Editable="true"></Key>
+			<Key="viewoptions,span" Value="true" Editable="true"></Key>
+			<Key="viewoptions,updatevars" Value="false" Editable="true"></Key>
+			<Key="viewoptions,hinttoolnames" Value="false" Editable="true"></Key>
+			<Key="viewoptions,showinfotitles" Value="false" Editable="true"></Key>
+			<Key="viewoptions,showtoolicons" Value="true" Editable="true"></Key>
+			<Key="viewoptions,displaytoolnames" Value="false" Editable="true"></Key>
+			<Key="viewoptions,showcomments" Value="false" Editable="true"></Key>
+			<Key="viewoptions,processnamesRow" Value="false" Editable="true"></Key>
+			<Key="viewoptions,showparamsandvars" Value="true" Editable="true"></Key>
+			<Key="viewoptions,experimentnumbers" Value="true" Editable="true"></Key>
+			<Key="mousewheel" Value="1" Editable="true"></Key>
+			<Key="bg" Value="<SystemDefault>" Editable="true"></Key>
+			<Key="fg" Value="<SystemDefault>" Editable="true"></Key>
+			<Key="title,bg" Value="<SystemDefault>" Editable="true"></Key>
+			<Key="title,fg" Value="<SystemDefault>" Editable="true"></Key>
+			<Key="doubleclick,OnTools" Value="Show Properties" Editable="true"></Key>
+			<Key="doubleclick,OnParameters" Value="Show Properties" Editable="true"></Key>
+			<Key="doubleclick,OnNodes" Value="Launch Explorer" Editable="true"></Key>
+			<Key="doubleclick,OnVariables" Value="Show Properties" Editable="true"></Key>
+			<Key="EditParamValues" Value="false" Editable="true"></Key>
+			<Key="Font,Family" Value="<SystemDefault>" Editable="true"></Key>
+			<Key="Font,Size" Value="" Editable="true"></Key>
+			<Key="Font,Slant" Value="roman" Editable="true"></Key>
+			<Key="Font,Weight" Value="normal" Editable="true"></Key>
+			<Key="viewoptions,DefaultProjectOrientation" Value="horizontal" Editable="true"></Key>
+			<Key="NodeStatusColor,none" Value="#FFFFFF" Editable="true"></Key>
+			<Key="NodeStatusColor,queued" Value="#acff75" Editable="true"></Key>
+			<Key="NodeStatusColor,ready" Value="#7cff75" Editable="true"></Key>
+			<Key="NodeStatusColor,pending" Value="#75ffa0" Editable="true"></Key>
+			<Key="NodeStatusColor,running" Value="#ADD8E6" Editable="true"></Key>
+			<Key="NodeStatusColor,done" Value="#FFD700" Editable="true"></Key>
+			<Key="NodeStatusColor,failed" Value="#FF0000" Editable="true"></Key>
+			<Key="NodeStatusColor,aborted" Value="#FF00FF" Editable="true"></Key>
+			<Key="NodeStatusColor,virtual" Value="#E0FFFF" Editable="true"></Key>
+			<Key="NodeStatusColor,pruned" Value="#B3B3B3" Editable="true"></Key>
+			<Key="NodeStatusColor,folded" Value="#8465A5" Editable="true"></Key>
+			<Key="Parameter,defaultAddParam,Scale" Value="User Defined List" Editable="true"></Key>
+			<Key="Parameter,defaultAddParam,Order" Value="Ascending" Editable="true"></Key>
+			<Key="Parameter,defaultAddParam,Format" Value="None" Editable="true"></Key>
+			<Key="Parameter,defaultAddParam,maxNumOfValues" Value="100" Editable="true"></Key>
+			<Key="Scenario,defaultRemove,Experiments" Value="Keep in the Project" Editable="true"></Key>
+		</PrefName>
+		<PrefName="WB_Scheduler">
+			<Key="general,concurrent" Value="Unlimited" Editable="true"></Key>
+			<Key="general,run_lim_order" Value="Breadth_First" Editable="true"></Key>
+			<Key="general,protectdone,rerun" Value="Yes" Editable="true"></Key>
+			<Key="general,protectdone,warning" Value="No" Editable="true"></Key>
+			<Key="general,job_delay" Value="0" Editable="true"></Key>
+			<Key="general,update_interval_gui" Value="15000" Editable="true"></Key>
+			<Key="general,forced_epilogue" Value="No" Editable="true"></Key>
+			<Key="local,jobs_max" Value="1" Editable="true"></Key>
+			<Key="local,nice" Value="19" Editable="true"></Key>
+			<Key="lsf,projectname_option" Value="-J" Editable="true"></Key>
+			<Key="sdmw,nice" Value="19" Editable="true"></Key>
+			<Key="local,job_polling_interval" Value="1" Editable="true"></Key>
+			<Key="lsf,job_polling_interval" Value="1" Editable="true"></Key>
+			<Key="sdmw,job_polling_interval" Value="1" Editable="true"></Key>
+			<Key="sge,job_polling_interval" Value="1" Editable="true"></Key>
+			<Key="tm,job_polling_interval" Value="1" Editable="true"></Key>
+			<Key="rtda,job_polling_interval" Value="1" Editable="true"></Key>
+		</PrefName>
+		<PrefName="WB_Visualization">
+			<Key="defaultInstance" Value="Last Used" Editable="true"></Key>
+			<Key="filters,XY-Plot" Value="*.plt *.plx" Editable="true"></Key>
+			<Key="filters,Mesh" Value="*msh.tdr" Editable="true"></Key>
+			<Key="filters,Boundary" Value="*bnd.tdr" Editable="true"></Key>
+			<Key="filters,TDR" Value="*.tdr" Editable="true"></Key>
+		</PrefName>
+		<PrefName="WB_Utilities">
+			<Key="browser" Value="firefox" Editable="true"></Key>
+			<Key="acroreader" Value="evince" Editable="true"></Key>
+			<Key="excel" Value="oocalc" Editable="true"></Key>
+			<Key="editor" Value="gedit" Editable="true"></Key>
+			<Key="diff" Value="tkdiff" Editable="true"></Key>
+			<Key="terminal" Value="xterm" Editable="true"></Key>
+			<Key="layoutviewer" Value="none" Editable="true"></Key>
+		</PrefName>
+		<PrefName="WB_AutoExit">
+			<Key="idleTimeout" Value="0" Editable="true"></Key>
+			<Key="warnTime" Value="0" Editable="true"></Key>
+		</PrefName>
+		<PrefName="WB_Miscellaneous">
+			<Key="attachapplibs" Value="true" Editable="true"></Key>
+			<Key="attachedroots,1" Value="" Editable="true"></Key>
+			<Key="attachedroots,2" Value="" Editable="true"></Key>
+			<Key="attachedroots,3" Value="" Editable="true"></Key>
+			<Key="attachedroots,4" Value="" Editable="true"></Key>
+			<Key="attachedroots,5" Value="" Editable="true"></Key>
+			<Key="materialdb" Value="/eda/others/Sentaurus_2017/N_2017.09-SP2/tcad/current/lib/sdevice/MaterialDB" Editable="true"></Key>
+			<Key="frontpage" Value="/eda/others/Sentaurus_2017/N_2017.09-SP2/tcad/current/manuals/PDFManual/front.pdf" Editable="true"></Key>
+			<Key="training" Value="/eda/others/Sentaurus_2017/N_2017.09-SP2/tcad/current/Sentaurus_Training/index.html" Editable="true"></Key>
+			<Key="WarnBeforeLeaving" Value="false" Editable="true"></Key>
+			<Key="bookmarks" Value="10" Editable="true"></Key>
+			<Key="temp" Value="/home/ist26.12/Desktop/Lab1/tmp" Editable="true"></Key>
+			<Key="idle_task_frequency,refresh" Value="10000" Editable="true"></Key>
+			<Key="idle_task_frequency,explorer" Value="30000" Editable="true"></Key>
+			<Key="idle_task_frequency,dynamic" Value="true" Editable="true"></Key>
+			<Key="OutFileSize" Value="1024" Editable="true"></Key>
+			<Key="TailLines" Value="1000" Editable="true"></Key>
+			<Key="ObsoleteTools" Value="mdraw,mdrawTCL,aurora,dios,TaurusProcess,fammos,mesh,smoca,noffset3d,davinci,TaurusDevice,sxtract,measure" Editable="true"></Key>
+		</PrefName>
+		<PrefName="WB_Converter">
+			<Key="parameterNames" Value="_" Editable="true"></Key>
+			<Key="smartconversion" Value="false" Editable="true"></Key>
+		</PrefName>
+	</Tool>
+</UserPreferences>

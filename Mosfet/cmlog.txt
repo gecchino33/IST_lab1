@@ -1,0 +1,5 @@
+DATE: 11/06/26 - 11/06/26 cmlog.txt
+
+This localhost (server) information:
+	Name:    integratedsystemstech.openstack.polito
+	Address: 192.168.236.98

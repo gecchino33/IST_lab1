@@ -1,0 +1,81 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                        Version N-2017.09-SP2                         ***
+***                        (1.926, x86_64, Linux)                        ***
+***                                                                      ***
+***                Copyright (c) 1994-2017 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'integratedsystemstech.openstack.polito' by user 'ist26.12'
+Binary '/eda/others/Sentaurus_2017/N_2017.09-SP2/tcad/current/linux64/bin/../lib/gsub0'
+Command line options '-verbose -swb_pid 1056393 -q local:default -e all /home/ist26.12/Desktop/Lab1/Mosfet'
+Current directory '/home/ist26.12/Desktop'
+Some relevant environment variables:
+	STROOT=/eda/others/Sentaurus_2017/N_2017.09-SP2
+	STRELEASE=current
+	STROOT_LIB=/eda/others/Sentaurus_2017/N_2017.09-SP2/tcad/current/lib
+	STDB=/home/ist26.12/Desktop
+	DATEX=/eda/others/Sentaurus_2017/N_2017.09-SP2/tcad/current/lib/datexcodes.txt
+	DISPLAY=:28.0
+
+Starting swblm daemon...OK
+Loading global tool database '/eda/others/Sentaurus_2017/N_2017.09-SP2/tcad/current/lib/glib2/tooldb.tcl'
+Project '/home/ist26.12/Desktop/Lab1/Mosfet'
+10:17:02 Nov 06 2026 <Mosfet> submitted to the batch system
+Loading global queue configuration file '/eda/others/Sentaurus_2017/N_2017.09-SP2/queues/gqueues.dat'...ok
+Loading project tree '/home/ist26.12/Desktop/Lab1/Mosfet/gtree.dat'
+>>>>> Preprocessing the project to run in normal mode
+Loading jobs and dependence graph '"/home/ist26.12/Desktop/Lab1/Mosfet/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/ist26.12/Desktop/Lab1/Mosfet/gtree.dat'
+Loading project variables '/home/ist26.12/Desktop/Lab1/Mosfet/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/ist26.12/Desktop/Lab1/Mosfet/sprocess_fps.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /home/ist26.12/Desktop/Lab1/Mosfet/sprocess_fps.cmd fornode 1
++++Node successfully preprocessed+++
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/home/ist26.12/Desktop/Lab1/Mosfet/gexec.cmd"'
+>>>>>>>>>> job '1' status changed from 'done' to 'queued'
+-----------------------------------------------------------------
+queue "local:default" - 1
+-----------------------------------------------------------------
+>>>>> cleaning the index file from previous simulations 
+                       /home/ist26.12/Desktop/Lab1/Mosfet/.gindex
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '1' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/ist26.12/Desktop/Lab1/Mosfet/n1_fps.job
+local% submit job 1 for local execution
+>>>>>>>>>> job '1' status changed from 'ready' to 'pending'
+local% exec "/eda/others/Sentaurus_2017/N_2017.09-SP2/bin/gjob -verbose -nice 19  -job 1 -swb_pid 1056393 -gsub_pid 1222506 -gsub_host integratedsystemstech.openstack.polito -gsub_port 36189 "/home/ist26.12/Desktop/Lab1/Mosfet""
+>>>>>>>>>> job '1' status changed from 'pending' to 'running'
+10:17:03 Nov 06 2026     job 1 <sprocess> started on host 'integratedsystemstech.openstack.polito': "sprocess -u n1_fps.cmd"
+>>>>>>>>>> job '1' status changed from 'running' to 'done'
+10:21:33 Nov 06 2026 +++ job 1 <sprocess> done: exit(0)
+
+SCHEDULING REPORT
++++ done     : 1
+
+10:21:35 Nov 06 2026 <Mosfet> done (273 sec)
+>>>>>> Writing to status file 273
+gsub exits with status 0

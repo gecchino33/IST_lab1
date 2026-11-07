@@ -1,0 +1,28 @@
+08:33:19 Nov 06 2026 <Mosfet> submitted to the batch system
+08:33:20 Nov 06 2026     job 1 <sprocess> started on host 'integratedsystemstech.openstack.polito': "sprocess -u n1_fps.cmd"
+08:33:29 Nov 06 2026 +++ job 1 <sprocess> done: exit(0)
+08:33:32 Nov 06 2026 <Mosfet> done (13 sec)
+08:40:01 Nov 06 2026 <Mosfet> submitted to the batch system
+08:40:01 Nov 06 2026     job 1 <sprocess> started on host 'integratedsystemstech.openstack.polito': "sprocess -u n1_fps.cmd"
+08:40:25 Nov 06 2026 +++ job 1 <sprocess> done: exit(0)
+08:40:28 Nov 06 2026 <Mosfet> done (27 sec)
+08:54:37 Nov 06 2026 <Mosfet> submitted to the batch system
+08:54:38 Nov 06 2026     job 1 <sprocess> started on host 'integratedsystemstech.openstack.polito': "sprocess -u n1_fps.cmd"
+08:55:26 Nov 06 2026 +++ job 1 <sprocess> done: exit(0)
+08:55:29 Nov 06 2026 <Mosfet> done (52 sec)
+09:28:30 Nov 06 2026 <Mosfet> submitted to the batch system
+09:28:30 Nov 06 2026     job 1 <sprocess> started on host 'integratedsystemstech.openstack.polito': "sprocess -u n1_fps.cmd"
+09:29:21 Nov 06 2026 +++ job 1 <sprocess> done: exit(0)
+09:29:24 Nov 06 2026 <Mosfet> done (54 sec)
+09:32:23 Nov 06 2026 <Mosfet> submitted to the batch system
+09:32:24 Nov 06 2026     job 1 <sprocess> started on host 'integratedsystemstech.openstack.polito': "sprocess -u n1_fps.cmd"
+09:33:20 Nov 06 2026 +++ job 1 <sprocess> done: exit(0)
+09:33:22 Nov 06 2026 <Mosfet> done (59 sec)
+09:47:18 Nov 06 2026 <Mosfet> submitted to the batch system
+09:47:18 Nov 06 2026     job 1 <sprocess> started on host 'integratedsystemstech.openstack.polito': "sprocess -u n1_fps.cmd"
+09:49:36 Nov 06 2026 +++ job 1 <sprocess> done: exit(0)
+09:49:39 Nov 06 2026 <Mosfet> done (141 sec)
+10:17:02 Nov 06 2026 <Mosfet> submitted to the batch system
+10:17:03 Nov 06 2026     job 1 <sprocess> started on host 'integratedsystemstech.openstack.polito': "sprocess -u n1_fps.cmd"
+10:21:33 Nov 06 2026 +++ job 1 <sprocess> done: exit(0)
+10:21:35 Nov 06 2026 <Mosfet> done (273 sec)

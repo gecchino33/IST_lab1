@@ -1,0 +1,575 @@
+###########################################
+# Sentaurus Visual N-2017.09-SP2.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 06, 2026. 10:22:03.
+# Version: 27.0.926 (1.926)
+# Mode: Interactive (GUI).
+# Hostname: integratedsystemstech.openstack.polito.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 4.18.0-553.123.1.el8_10.x86_64.
+###########################################
+
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_DEP_CONTACTS_Aluminium_deposition_fps.tdr
+create_plot -dataset n1_DEP_CONTACTS_Aluminium_deposition_fps
+select_plots {Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps}
+#-> Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps
+#-> Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps
+#-> n1_DEP_CONTACTS_Aluminium_deposition_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_DEP_CONTACTS_Aluminium_etchin_1_fps.tdr
+create_plot -dataset n1_DEP_CONTACTS_Aluminium_etchin_1_fps
+select_plots {Plot_n1_DEP_CONTACTS_Aluminium_etchin_1_fps}
+#-> Plot_n1_DEP_CONTACTS_Aluminium_etchin_1_fps
+#-> Plot_n1_DEP_CONTACTS_Aluminium_etchin_1_fps
+#-> n1_DEP_CONTACTS_Aluminium_etchin_1_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_Gate_Creation_etching_oxide_fps.tdr
+create_plot -dataset n1_Gate_Creation_etching_oxide_fps
+select_plots {Plot_n1_Gate_Creation_etching_oxide_fps}
+#-> Plot_n1_Gate_Creation_etching_oxide_fps
+#-> Plot_n1_Gate_Creation_etching_oxide_fps
+#-> n1_Gate_Creation_etching_oxide_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_Gate_Creation_etching_poly_fps.tdr
+create_plot -dataset n1_Gate_Creation_etching_poly_fps
+select_plots {Plot_n1_Gate_Creation_etching_poly_fps}
+#-> Plot_n1_Gate_Creation_etching_poly_fps
+#-> Plot_n1_Gate_Creation_etching_poly_fps
+#-> n1_Gate_Creation_etching_poly_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_Halo_1_fps.tdr
+create_plot -dataset n1_Halo_1_fps
+select_plots {Plot_n1_Halo_1_fps}
+#-> Plot_n1_Halo_1_fps
+#-> Plot_n1_Halo_1_fps
+#-> n1_Halo_1_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_Halo_2_fps.tdr
+create_plot -dataset n1_Halo_2_fps
+select_plots {Plot_n1_Halo_2_fps}
+#-> Plot_n1_Halo_2_fps
+#-> Plot_n1_Halo_2_fps
+#-> n1_Halo_2_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_Halo_3_fps.tdr
+create_plot -dataset n1_Halo_3_fps
+select_plots {Plot_n1_Halo_3_fps}
+#-> Plot_n1_Halo_3_fps
+#-> Plot_n1_Halo_3_fps
+#-> n1_Halo_3_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_Halo_4_fps.tdr
+create_plot -dataset n1_Halo_4_fps
+select_plots {Plot_n1_Halo_4_fps}
+#-> Plot_n1_Halo_4_fps
+#-> Plot_n1_Halo_4_fps
+#-> n1_Halo_4_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_LDD_Diffuse_Arsenic_Activation_fps.tdr
+create_plot -dataset n1_LDD_Diffuse_Arsenic_Activation_fps
+select_plots {Plot_n1_LDD_Diffuse_Arsenic_Activation_fps}
+#-> Plot_n1_LDD_Diffuse_Arsenic_Activation_fps
+#-> Plot_n1_LDD_Diffuse_Arsenic_Activation_fps
+#-> n1_LDD_Diffuse_Arsenic_Activation_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_LDD_Implant_Arsenic_fps.tdr
+create_plot -dataset n1_LDD_Implant_Arsenic_fps
+select_plots {Plot_n1_LDD_Implant_Arsenic_fps}
+#-> Plot_n1_LDD_Implant_Arsenic_fps
+#-> Plot_n1_LDD_Implant_Arsenic_fps
+#-> n1_LDD_Implant_Arsenic_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_NMOS18_fps.tdr
+create_plot -dataset n1_NMOS18_fps
+select_plots {Plot_n1_NMOS18_fps}
+#-> Plot_n1_NMOS18_fps
+#-> Plot_n1_NMOS18_fps
+#-> n1_NMOS18_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_NMOS20_fps.tdr
+create_plot -dataset n1_NMOS20_fps
+select_plots {Plot_n1_NMOS20_fps}
+#-> Plot_n1_NMOS20_fps
+#-> Plot_n1_NMOS20_fps
+#-> n1_NMOS20_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_NMOS_channel.plx
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+create_curve -dataset {n1_NMOS_channel} -axisX {BTotal x} -axisY {BTotal y}
+#-> Curve_1
+create_curve -dataset {n1_NMOS_channel} -axisX {NetActive x} -axisY {NetActive y}
+#-> Curve_2
+#-> n1_NMOS_channel
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_NMOS_gate_oxide_growth_fps.tdr
+create_plot -dataset n1_NMOS_gate_oxide_growth_fps
+select_plots {Plot_n1_NMOS_gate_oxide_growth_fps}
+#-> Plot_n1_NMOS_gate_oxide_growth_fps
+#-> Plot_n1_NMOS_gate_oxide_growth_fps
+#-> n1_NMOS_gate_oxide_growth_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_NMOS_ldd.plx
+create_curve -dataset {n1_NMOS_ldd} -axisX {AsTotal x} -axisY {AsTotal y}
+#!-> Error: Curve couldn't be created.
+create_curve -dataset {n1_NMOS_ldd} -axisX {BTotal x} -axisY {BTotal y}
+#!-> Error: Curve couldn't be created.
+create_curve -dataset {n1_NMOS_ldd} -axisX {NetActive x} -axisY {NetActive y}
+#!-> Error: Curve couldn't be created.
+#-> n1_NMOS_ldd
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_NMOS_pwell1.plx
+create_curve -dataset {n1_NMOS_pwell1} -axisX {BTotal x} -axisY {BTotal y}
+#!-> Error: Curve couldn't be created.
+#-> n1_NMOS_pwell1
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_NMOS_pwell1_fps.tdr
+create_plot -dataset n1_NMOS_pwell1_fps
+select_plots {Plot_n1_NMOS_pwell1_fps}
+#-> Plot_n1_NMOS_pwell1_fps
+#-> Plot_n1_NMOS_pwell1_fps
+#-> n1_NMOS_pwell1_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_NMOS_pwell2.plx
+create_curve -dataset {n1_NMOS_pwell2} -axisX {BTotal x} -axisY {BTotal y}
+#!-> Error: Curve couldn't be created.
+#-> n1_NMOS_pwell2
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_NMOS_pwell2_fps.tdr
+create_plot -dataset n1_NMOS_pwell2_fps
+select_plots {Plot_n1_NMOS_pwell2_fps}
+#-> Plot_n1_NMOS_pwell2_fps
+#-> Plot_n1_NMOS_pwell2_fps
+#-> n1_NMOS_pwell2_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_NMOS_pwell3.plx
+create_curve -dataset {n1_NMOS_pwell3} -axisX {BTotal x} -axisY {BTotal y}
+#!-> Error: Curve couldn't be created.
+#-> n1_NMOS_pwell3
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_NMOS_pwell3_fps.tdr
+create_plot -dataset n1_NMOS_pwell3_fps
+select_plots {Plot_n1_NMOS_pwell3_fps}
+#-> Plot_n1_NMOS_pwell3_fps
+#-> Plot_n1_NMOS_pwell3_fps
+#-> n1_NMOS_pwell3_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_NMOS_sd.plx
+create_curve -dataset {n1_NMOS_sd} -axisX {AsTotal x} -axisY {AsTotal y}
+#!-> Error: Curve couldn't be created.
+create_curve -dataset {n1_NMOS_sd} -axisX {BTotal x} -axisY {BTotal y}
+#!-> Error: Curve couldn't be created.
+create_curve -dataset {n1_NMOS_sd} -axisX {NetActive x} -axisY {NetActive y}
+#!-> Error: Curve couldn't be created.
+#-> n1_NMOS_sd
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_NMOS_substrate0_fps.tdr
+create_plot -dataset n1_NMOS_substrate0_fps
+select_plots {Plot_n1_NMOS_substrate0_fps}
+#-> Plot_n1_NMOS_substrate0_fps
+#-> Plot_n1_NMOS_substrate0_fps
+#-> n1_NMOS_substrate0_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_NMOS_substrate1.plx
+create_curve -dataset {n1_NMOS_substrate1} -axisX {BTotal x} -axisY {BTotal y}
+#!-> Error: Curve couldn't be created.
+#-> n1_NMOS_substrate1
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_NMOS_substrate1_fps.tdr
+create_plot -dataset n1_NMOS_substrate1_fps
+select_plots {Plot_n1_NMOS_substrate1_fps}
+#-> Plot_n1_NMOS_substrate1_fps
+#-> Plot_n1_NMOS_substrate1_fps
+#-> n1_NMOS_substrate1_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_Polysilicon_reOxidation_fps.tdr
+create_plot -dataset n1_Polysilicon_reOxidation_fps
+select_plots {Plot_n1_Polysilicon_reOxidation_fps}
+#-> Plot_n1_Polysilicon_reOxidation_fps
+#-> Plot_n1_Polysilicon_reOxidation_fps
+#-> n1_Polysilicon_reOxidation_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_presimulation_fps.tdr
+create_plot -dataset n1_presimulation_fps
+select_plots {Plot_n1_presimulation_fps}
+#-> Plot_n1_presimulation_fps
+#-> Plot_n1_presimulation_fps
+#-> n1_presimulation_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_RTA_LDD_HALO_fps.tdr
+create_plot -dataset n1_RTA_LDD_HALO_fps
+select_plots {Plot_n1_RTA_LDD_HALO_fps}
+#-> Plot_n1_RTA_LDD_HALO_fps
+#-> Plot_n1_RTA_LDD_HALO_fps
+#-> n1_RTA_LDD_HALO_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_SD_IMPLANT_As_activation_fps.tdr
+create_plot -dataset n1_SD_IMPLANT_As_activation_fps
+select_plots {Plot_n1_SD_IMPLANT_As_activation_fps}
+#-> Plot_n1_SD_IMPLANT_As_activation_fps
+#-> Plot_n1_SD_IMPLANT_As_activation_fps
+#-> n1_SD_IMPLANT_As_activation_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_SD_IMPLANT_As_implantation_fps.tdr
+create_plot -dataset n1_SD_IMPLANT_As_implantation_fps
+select_plots {Plot_n1_SD_IMPLANT_As_implantation_fps}
+#-> Plot_n1_SD_IMPLANT_As_implantation_fps
+#-> Plot_n1_SD_IMPLANT_As_implantation_fps
+#-> n1_SD_IMPLANT_As_implantation_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_Spacer_deposition_fps.tdr
+create_plot -dataset n1_Spacer_deposition_fps
+select_plots {Plot_n1_Spacer_deposition_fps}
+#-> Plot_n1_Spacer_deposition_fps
+#-> Plot_n1_Spacer_deposition_fps
+#-> n1_Spacer_deposition_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_Spacer_etch_fps.tdr
+create_plot -dataset n1_Spacer_etch_fps
+select_plots {Plot_n1_Spacer_etch_fps}
+#-> Plot_n1_Spacer_etch_fps
+#-> Plot_n1_Spacer_etch_fps
+#-> n1_Spacer_etch_fps
+load_file /home/ist26.12/Desktop/Lab1/Mosfet/n1_Spacer_oxide_removal_fps.tdr
+create_plot -dataset n1_Spacer_oxide_removal_fps
+select_plots {Plot_n1_Spacer_oxide_removal_fps}
+#-> Plot_n1_Spacer_oxide_removal_fps
+#-> Plot_n1_Spacer_oxide_removal_fps
+#-> n1_Spacer_oxide_removal_fps
+select_plots {Plot_n1_Halo_1_fps}
+#-> Plot_n1_Halo_1_fps
+select_plots {Plot_n1_Halo_1_fps Plot_n1_Halo_2_fps}
+#-> Plot_n1_Halo_1_fps Plot_n1_Halo_2_fps
+select_plots {Plot_n1_Halo_1_fps Plot_n1_Halo_2_fps}
+#-> Plot_n1_Halo_1_fps Plot_n1_Halo_2_fps
+select_plots {Plot_n1_Halo_1_fps Plot_n1_Halo_2_fps Plot_n1_Halo_3_fps}
+#-> Plot_n1_Halo_1_fps Plot_n1_Halo_2_fps Plot_n1_Halo_3_fps
+select_plots {Plot_n1_Halo_1_fps Plot_n1_Halo_2_fps Plot_n1_Halo_3_fps}
+#-> Plot_n1_Halo_1_fps Plot_n1_Halo_2_fps Plot_n1_Halo_3_fps
+select_plots {Plot_n1_Halo_1_fps Plot_n1_Halo_2_fps Plot_n1_Halo_3_fps Plot_n1_Halo_4_fps}
+#-> Plot_n1_Halo_1_fps Plot_n1_Halo_2_fps Plot_n1_Halo_3_fps Plot_n1_Halo_4_fps
+select_plots {Plot_n1_Halo_1_fps Plot_n1_Halo_2_fps Plot_n1_Halo_3_fps Plot_n1_Halo_4_fps}
+#-> Plot_n1_Halo_1_fps Plot_n1_Halo_2_fps Plot_n1_Halo_3_fps Plot_n1_Halo_4_fps
+remove_plots {Plot_n1_Halo_1_fps Plot_n1_Halo_2_fps Plot_n1_Halo_3_fps Plot_n1_Halo_4_fps}
+select_plots {Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps}
+#-> Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps
+#-> Plot_n1_Halo_1_fps Plot_n1_Halo_2_fps Plot_n1_Halo_3_fps Plot_n1_Halo_4_fps
+select_plots {Plot_n1_NMOS_pwell1_fps}
+#-> Plot_n1_NMOS_pwell1_fps
+select_plots {Plot_n1_NMOS_substrate0_fps}
+#-> Plot_n1_NMOS_substrate0_fps
+select_plots {Plot_n1_NMOS_substrate1_fps}
+#-> Plot_n1_NMOS_substrate1_fps
+select_plots {Plot_n1_NMOS_substrate0_fps}
+#-> Plot_n1_NMOS_substrate0_fps
+select_plots {Plot_n1_NMOS_substrate1_fps}
+#-> Plot_n1_NMOS_substrate1_fps
+select_plots {Plot_n1_NMOS_substrate0_fps}
+#-> Plot_n1_NMOS_substrate0_fps
+select_plots {Plot_n1_NMOS_substrate0_fps Plot_n1_NMOS_substrate1_fps}
+#-> Plot_n1_NMOS_substrate0_fps Plot_n1_NMOS_substrate1_fps
+select_plots {Plot_n1_NMOS_substrate0_fps Plot_n1_NMOS_substrate1_fps}
+#-> Plot_n1_NMOS_substrate0_fps Plot_n1_NMOS_substrate1_fps
+remove_plots {Plot_n1_NMOS_substrate0_fps Plot_n1_NMOS_substrate1_fps}
+select_plots {Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps}
+#-> Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps
+#-> Plot_n1_NMOS_substrate0_fps Plot_n1_NMOS_substrate1_fps
+select_plots {Plot_n1_Gate_Creation_etching_oxide_fps}
+#-> Plot_n1_Gate_Creation_etching_oxide_fps
+select_plots {Plot_n1_NMOS_pwell1_fps}
+#-> Plot_n1_NMOS_pwell1_fps
+select_plots {Plot_n1_Polysilicon_reOxidation_fps}
+#-> Plot_n1_Polysilicon_reOxidation_fps
+remove_plots {Plot_n1_Polysilicon_reOxidation_fps}
+select_plots {Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps}
+#-> Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps
+#-> Plot_n1_Polysilicon_reOxidation_fps
+select_plots {Plot_n1_LDD_Implant_Arsenic_fps}
+#-> Plot_n1_LDD_Implant_Arsenic_fps
+select_plots {Plot_n1_LDD_Implant_Arsenic_fps Plot_n1_Gate_Creation_etching_oxide_fps}
+#-> Plot_n1_Gate_Creation_etching_oxide_fps Plot_n1_LDD_Implant_Arsenic_fps
+select_plots {Plot_n1_LDD_Implant_Arsenic_fps Plot_n1_Gate_Creation_etching_oxide_fps}
+#-> Plot_n1_Gate_Creation_etching_oxide_fps Plot_n1_LDD_Implant_Arsenic_fps
+select_plots {Plot_n1_Gate_Creation_etching_oxide_fps Plot_n1_LDD_Implant_Arsenic_fps Plot_n1_Gate_Creation_etching_poly_fps}
+#-> Plot_n1_Gate_Creation_etching_oxide_fps Plot_n1_Gate_Creation_etching_poly_fps Plot_n1_LDD_Implant_Arsenic_fps
+select_plots {Plot_n1_Gate_Creation_etching_oxide_fps Plot_n1_LDD_Implant_Arsenic_fps Plot_n1_Gate_Creation_etching_poly_fps}
+#-> Plot_n1_Gate_Creation_etching_oxide_fps Plot_n1_Gate_Creation_etching_poly_fps Plot_n1_LDD_Implant_Arsenic_fps
+remove_plots {Plot_n1_Gate_Creation_etching_oxide_fps Plot_n1_Gate_Creation_etching_poly_fps Plot_n1_LDD_Implant_Arsenic_fps}
+select_plots {Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps}
+#-> Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps
+#-> Plot_n1_Gate_Creation_etching_oxide_fps Plot_n1_Gate_Creation_etching_poly_fps Plot_n1_LDD_Implant_Arsenic_fps
+select_plots {Plot_n1_LDD_Diffuse_Arsenic_Activation_fps}
+#-> Plot_n1_LDD_Diffuse_Arsenic_Activation_fps
+select_plots {Plot_n1_LDD_Diffuse_Arsenic_Activation_fps Plot_n1_NMOS_pwell1_fps}
+#-> Plot_n1_LDD_Diffuse_Arsenic_Activation_fps Plot_n1_NMOS_pwell1_fps
+select_plots {Plot_n1_LDD_Diffuse_Arsenic_Activation_fps Plot_n1_NMOS_pwell1_fps}
+#-> Plot_n1_LDD_Diffuse_Arsenic_Activation_fps Plot_n1_NMOS_pwell1_fps
+select_plots {Plot_n1_LDD_Diffuse_Arsenic_Activation_fps Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps}
+#-> Plot_n1_LDD_Diffuse_Arsenic_Activation_fps Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps
+select_plots {Plot_n1_LDD_Diffuse_Arsenic_Activation_fps Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps}
+#-> Plot_n1_LDD_Diffuse_Arsenic_Activation_fps Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps
+select_plots {Plot_n1_LDD_Diffuse_Arsenic_Activation_fps Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps Plot_n1_NMOS_pwell3_fps}
+#-> Plot_n1_LDD_Diffuse_Arsenic_Activation_fps Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps Plot_n1_NMOS_pwell3_fps
+select_plots {Plot_n1_LDD_Diffuse_Arsenic_Activation_fps Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps Plot_n1_NMOS_pwell3_fps}
+#-> Plot_n1_LDD_Diffuse_Arsenic_Activation_fps Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps Plot_n1_NMOS_pwell3_fps
+select_plots {Plot_n1_SD_IMPLANT_As_activation_fps}
+#-> Plot_n1_SD_IMPLANT_As_activation_fps
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.21
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.21
+move_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -position {1.33691 -4.65689}
+#-> 0
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.331
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.331
+move_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -position {-0.718174 -0.55753}
+#-> 0
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.21
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.331
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.21
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.21
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -factor 1.21
+move_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -position {-0.0243043 -0.175739}
+#-> 0
+move_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -position {0.0878695 0.0186956}
+#-> 0
+move_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -position {-0.0392608 -0.0168261}
+#-> 0
+select_plots {Plot_n1_NMOS_pwell1_fps}
+#-> Plot_n1_NMOS_pwell1_fps
+select_plots {Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps}
+#-> Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps
+select_plots {Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps}
+#-> Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps
+select_plots {Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps Plot_n1_NMOS_pwell3_fps}
+#-> Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps Plot_n1_NMOS_pwell3_fps
+select_plots {Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps Plot_n1_NMOS_pwell3_fps}
+#-> Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps Plot_n1_NMOS_pwell3_fps
+remove_plots {Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps Plot_n1_NMOS_pwell3_fps}
+select_plots {Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps}
+#-> Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps
+#-> Plot_n1_NMOS_pwell1_fps Plot_n1_NMOS_pwell2_fps Plot_n1_NMOS_pwell3_fps
+select_plots {Plot_n1_LDD_Diffuse_Arsenic_Activation_fps}
+#-> Plot_n1_LDD_Diffuse_Arsenic_Activation_fps
+move_plot -plot Plot_n1_LDD_Diffuse_Arsenic_Activation_fps -position {-2.05547 -5.4972}
+#-> 0
+select_plots {Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps}
+#-> Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps
+zoom_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps -factor 1.1
+zoom_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps -factor 1.21
+zoom_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps -factor 1.1
+move_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps -position {0.294467 -3.43544}
+#-> 0
+zoom_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps -window {-0.455446 -0.468249 0.493391 1.16768}
+zoom_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps -window {-0.256262 -0.0848683 0.210913 0.534411}
+move_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps -position {-0.0106987 -0.0855894}
+#-> 0
+move_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps -position {0 0.048144}
+#-> 0
+select_plots {Plot_n1_DEP_CONTACTS_Aluminium_etchin_1_fps}
+#-> Plot_n1_DEP_CONTACTS_Aluminium_etchin_1_fps
+zoom_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_etchin_1_fps -window {0.429794 -1.01557 -0.620992 0.7039}
+move_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_etchin_1_fps -position {0.352936 -0.0120319}
+#-> 0
+zoom_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_etchin_1_fps -window {0.217231 -0.077627 -0.248003 0.527979}
+move_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_etchin_1_fps -position {0.0017757 0.0159813}
+#-> 0
+zoom_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_etchin_1_fps -factor 0.909091
+select_plots {Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps}
+#-> Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps
+zoom_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps -factor 0.909091
+zoom_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps -factor 0.909091
+move_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps -position {-0.00431513 0.0345211}
+#-> 0
+move_plot -plot Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps -position {0 0.0258908}
+#-> 0
+select_plots {Plot_n1_LDD_Diffuse_Arsenic_Activation_fps}
+#-> Plot_n1_LDD_Diffuse_Arsenic_Activation_fps
+zoom_plot -plot Plot_n1_LDD_Diffuse_Arsenic_Activation_fps -window {-0.581797 -0.897049 0.852254 1.34963}
+zoom_plot -plot Plot_n1_LDD_Diffuse_Arsenic_Activation_fps -window {-0.264335 -0.271795 0.244698 0.68059}
+zoom_plot -plot Plot_n1_LDD_Diffuse_Arsenic_Activation_fps -factor 1.1
+zoom_plot -plot Plot_n1_LDD_Diffuse_Arsenic_Activation_fps -factor 1.1
+move_plot -plot Plot_n1_LDD_Diffuse_Arsenic_Activation_fps -position {-0.0128455 -0.0321136}
+#-> 0
+move_plot -plot Plot_n1_LDD_Diffuse_Arsenic_Activation_fps -position {0.0144511 0.00802841}
+#-> 0
+move_plot -plot Plot_n1_LDD_Diffuse_Arsenic_Activation_fps -position {0.0272966 -0.0176625}
+#-> 0
+zoom_plot -plot Plot_n1_LDD_Diffuse_Arsenic_Activation_fps -factor 1.1
+move_plot -plot Plot_n1_LDD_Diffuse_Arsenic_Activation_fps -position {-0.010218 0.0131374}
+#-> 0
+select_plots {Plot_n1_NMOS18_fps}
+#-> Plot_n1_NMOS18_fps
+zoom_plot -plot Plot_n1_NMOS18_fps -window {0.689014 -0.228739 -0.89181 0.873048}
+zoom_plot -plot Plot_n1_NMOS18_fps -window {0.218387 -0.130371 -0.342745 0.485064}
+move_plot -plot Plot_n1_NMOS18_fps -position {0.0492597 0.0214173}
+#-> 0
+move_plot -plot Plot_n1_NMOS18_fps -position {0.0214173 0.0257007}
+#-> 0
+select_plots {Plot_n1_NMOS20_fps}
+#-> Plot_n1_NMOS20_fps
+zoom_plot -plot Plot_n1_NMOS20_fps -factor 1.1
+zoom_plot -plot Plot_n1_NMOS20_fps -factor 1.21
+move_plot -plot Plot_n1_NMOS20_fps -position {-0.433785 -2.8919}
+#-> 0
+move_plot -plot Plot_n1_NMOS20_fps -position {-0.144595 -1.66284}
+#-> 0
+zoom_plot -plot Plot_n1_NMOS20_fps -factor 1.1
+zoom_plot -plot Plot_n1_NMOS20_fps -factor 1.1
+zoom_plot -plot Plot_n1_NMOS20_fps -factor 1.1
+zoom_plot -plot Plot_n1_NMOS20_fps -window {0.335946 -0.679229 -0.533145 0.705885}
+move_plot -plot Plot_n1_NMOS20_fps -position {0 0.0266388}
+#-> 0
+select_plots {Plot_1}
+#-> Plot_1
+select_plots {Plot_n1_NMOS_gate_oxide_growth_fps}
+#-> Plot_n1_NMOS_gate_oxide_growth_fps
+zoom_plot -plot Plot_n1_NMOS_gate_oxide_growth_fps -window {0.507887 -0.551816 -0.670508 0.862258}
+remove_plots {Plot_n1_NMOS_gate_oxide_growth_fps}
+select_plots {Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps}
+#-> Plot_n1_DEP_CONTACTS_Aluminium_deposition_fps
+#-> Plot_n1_NMOS_gate_oxide_growth_fps
+select_plots {Plot_n1_presimulation_fps}
+#-> Plot_n1_presimulation_fps
+zoom_plot -plot Plot_n1_presimulation_fps -factor 1.1
+zoom_plot -plot Plot_n1_presimulation_fps -factor 1.21
+move_plot -plot Plot_n1_presimulation_fps -position {0.795273 -2.42197}
+#-> 0
+move_plot -plot Plot_n1_presimulation_fps -position {-0.108446 -3.43413}
+#-> 0
+zoom_plot -plot Plot_n1_presimulation_fps -factor 1.1
+zoom_plot -plot Plot_n1_presimulation_fps -factor 1.1
+zoom_plot -plot Plot_n1_presimulation_fps -factor 1.1
+zoom_plot -plot Plot_n1_presimulation_fps -window {0.501182 -0.799137 -0.775296 0.966205}
+zoom_plot -plot Plot_n1_presimulation_fps -window {0.232192 -0.48868 -0.26177 0.489464}
+zoom_plot -plot Plot_n1_presimulation_fps -factor 0.909091
+zoom_plot -plot Plot_n1_presimulation_fps -factor 0.909091
+move_plot -plot Plot_n1_presimulation_fps -position {0.0641205 0.0229002}
+#-> 0
+zoom_plot -plot Plot_n1_presimulation_fps -factor 0.909091
+zoom_plot -plot Plot_n1_presimulation_fps -factor 1.1
+zoom_plot -plot Plot_n1_presimulation_fps -factor 1.1
+zoom_plot -plot Plot_n1_presimulation_fps -factor 1.1
+zoom_plot -plot Plot_n1_presimulation_fps -factor 1.21
+zoom_plot -plot Plot_n1_presimulation_fps -factor 1.1
+zoom_plot -plot Plot_n1_presimulation_fps -factor 1.1
+move_plot -plot Plot_n1_presimulation_fps -position {0.115046 -0.0142192}
+#-> 0
+zoom_plot -plot Plot_n1_presimulation_fps -factor 0.909091
+zoom_plot -plot Plot_n1_presimulation_fps -factor 0.909091
+zoom_plot -plot Plot_n1_presimulation_fps -factor 0.909091
+zoom_plot -plot Plot_n1_presimulation_fps -factor 0.909091
+zoom_plot -plot Plot_n1_presimulation_fps -factor 0.909091
+move_plot -plot Plot_n1_presimulation_fps -position {-0.114501 0.0145728}
+#-> 0
+zoom_plot -plot Plot_n1_presimulation_fps -factor 0.909091
+zoom_plot -plot Plot_n1_presimulation_fps -factor 0.909091
+move_plot -plot Plot_n1_presimulation_fps -position {-0.0302282 0.0302282}
+#-> 0
+select_plots {Plot_n1_RTA_LDD_HALO_fps}
+#-> Plot_n1_RTA_LDD_HALO_fps
+move_plot -plot Plot_n1_RTA_LDD_HALO_fps -position {4.3395 -5.29822}
+#-> 0
+zoom_plot -plot Plot_n1_RTA_LDD_HALO_fps -factor 1.1
+zoom_plot -plot Plot_n1_RTA_LDD_HALO_fps -factor 1.1
+zoom_plot -plot Plot_n1_RTA_LDD_HALO_fps -factor 1.1
+zoom_plot -plot Plot_n1_RTA_LDD_HALO_fps -factor 1.21
+zoom_plot -plot Plot_n1_RTA_LDD_HALO_fps -factor 1.1
+zoom_plot -plot Plot_n1_RTA_LDD_HALO_fps -factor 1.21
+zoom_plot -plot Plot_n1_RTA_LDD_HALO_fps -factor 1.21
+move_plot -plot Plot_n1_RTA_LDD_HALO_fps -position {-3.20995 0.0583627}
+#-> 0
+zoom_plot -plot Plot_n1_RTA_LDD_HALO_fps -factor 1.1
+zoom_plot -plot Plot_n1_RTA_LDD_HALO_fps -factor 1.331
+zoom_plot -plot Plot_n1_RTA_LDD_HALO_fps -window {-0.35437 -0.277908 0.177131 0.74523}
+move_plot -plot Plot_n1_RTA_LDD_HALO_fps -position {0.0183276 0.0366552}
+#-> 0
+zoom_plot -plot Plot_n1_RTA_LDD_HALO_fps -window {-0.213858 -0.0555081 0.0793835 0.44341}
+zoom_plot -plot Plot_n1_RTA_LDD_HALO_fps -factor 0.909091
+zoom_plot -plot Plot_n1_RTA_LDD_HALO_fps -factor 0.909091
+move_plot -plot Plot_n1_RTA_LDD_HALO_fps -position {0.0244705 0.0217516}
+#-> 0
+move_plot -plot Plot_n1_RTA_LDD_HALO_fps -position {-0.00543789 -0.00135947}
+#-> 0
+select_plots {Plot_n1_SD_IMPLANT_As_activation_fps}
+#-> Plot_n1_SD_IMPLANT_As_activation_fps
+move_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -position {-0.00373913 0.0205652}
+#-> 0
+move_plot -plot Plot_n1_SD_IMPLANT_As_activation_fps -position {0.00186956 0.029913}
+#-> 0
+select_plots {Plot_n1_SD_IMPLANT_As_implantation_fps}
+#-> Plot_n1_SD_IMPLANT_As_implantation_fps
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.21
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.21
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+move_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -position {0.12255 -2.74512}
+#-> 0
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.331
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+move_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -position {-0.0760938 -3.43944}
+#-> 0
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.331
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.331
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.21
+move_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -position {0.32858 0.792111}
+#-> 0
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.21
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.331
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+move_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -position {0.0547446 0.107001}
+#-> 0
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+move_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -position {0.121335 -0.0431869}
+#-> 0
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 1.1
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 0.909091
+zoom_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -factor 0.909091
+move_plot -plot Plot_n1_SD_IMPLANT_As_implantation_fps -position {-0.0336521 -0.0205652}
+#-> 0
+select_plots {Plot_n1_Spacer_deposition_fps}
+#-> Plot_n1_Spacer_deposition_fps
+zoom_plot -plot Plot_n1_Spacer_deposition_fps -window {0.31788 -0.463526 -0.691833 0.353861}
+move_plot -plot Plot_n1_Spacer_deposition_fps -position {0.558811 0.127178}
+#-> 0
+zoom_plot -plot Plot_n1_Spacer_deposition_fps -window {-0.348839 -0.139617 0.19841 0.554079}
+zoom_plot -plot Plot_n1_Spacer_deposition_fps -factor 1.1
+move_plot -plot Plot_n1_Spacer_deposition_fps -position {0.0189885 0.00189885}
+#-> 0
+select_plots {Plot_n1_Spacer_etch_fps}
+#-> Plot_n1_Spacer_etch_fps
+zoom_plot -plot Plot_n1_Spacer_etch_fps -factor 1.1
+zoom_plot -plot Plot_n1_Spacer_etch_fps -factor 1.21
+zoom_plot -plot Plot_n1_Spacer_etch_fps -factor 1.1
+move_plot -plot Plot_n1_Spacer_etch_fps -position {3.06903 -4.40764}
+#-> 0
+zoom_plot -plot Plot_n1_Spacer_etch_fps -window {0.252338 -0.25096 -0.367997 0.826464}
+zoom_plot -plot Plot_n1_Spacer_etch_fps -window {0.0723938 -0.041357 -0.204626 0.441652}
+zoom_plot -plot Plot_n1_Spacer_etch_fps -factor 0.909091
+zoom_plot -plot Plot_n1_Spacer_etch_fps -factor 0.909091
+zoom_plot -plot Plot_n1_Spacer_etch_fps -factor 0.909091
+move_plot -plot Plot_n1_Spacer_etch_fps -position {0.0211095 0.0253314}
+#-> 0
+select_plots {Plot_n1_Spacer_oxide_removal_fps}
+#-> Plot_n1_Spacer_oxide_removal_fps
+zoom_plot -plot Plot_n1_Spacer_oxide_removal_fps -factor 1.1
+zoom_plot -plot Plot_n1_Spacer_oxide_removal_fps -factor 1.21
+zoom_plot -plot Plot_n1_Spacer_oxide_removal_fps -factor 2.86565
+move_plot -plot Plot_n1_Spacer_oxide_removal_fps -position {-0.267849 -2.42739}
+#-> 0
+move_plot -plot Plot_n1_Spacer_oxide_removal_fps -position {0.200887 -1.85821}
+#-> 0
+zoom_plot -plot Plot_n1_Spacer_oxide_removal_fps -factor 1.1
+zoom_plot -plot Plot_n1_Spacer_oxide_removal_fps -factor 1.331
+move_plot -plot Plot_n1_Spacer_oxide_removal_fps -position {0.262983 -0.90329}
+#-> 0
+zoom_plot -plot Plot_n1_Spacer_oxide_removal_fps -window {0.135044 -0.11065 -0.322318 0.461053}
+move_plot -plot Plot_n1_Spacer_oxide_removal_fps -position {0.0192758 0.0665891}
+#-> 0
+zoom_plot -plot Plot_n1_Spacer_oxide_removal_fps -window {0.0579404 -0.0122992 -0.199654 0.499386}
+zoom_plot -plot Plot_n1_Spacer_oxide_removal_fps -factor 0.909091
+zoom_plot -plot Plot_n1_Spacer_oxide_removal_fps -factor 0.909091
+zoom_plot -plot Plot_n1_Spacer_oxide_removal_fps -factor 0.909091
+move_plot -plot Plot_n1_Spacer_oxide_removal_fps -position {-0.01445 0.0118227}
+#-> 0
+move_plot -plot Plot_n1_Spacer_oxide_removal_fps -position {-0.0210181 0.0131363}
+#-> 0
+move_plot -plot Plot_n1_Spacer_oxide_removal_fps -position {0.00656817 0.0039409}
+#-> 0
+export_view /home/ist26.12/Desktop/Lab1/Mosfet/Plots/ultime_sim.png -plots {Plot_n1_Spacer_oxide_removal_fps} -format png -resolution 1000x500
+#-> 0
+exit 0
+ 
