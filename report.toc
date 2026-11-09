@@ -1,0 +1,19 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Process simulation}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Substrate definition and initial mesh}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Boron implantation (p-well, punch-through stop, $V_{th}$ adjust)}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Gate oxide growth}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Gate creation and polysilicon reoxidation}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}LDD implantation}{3}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}HALO implantation}{3}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Spacers formation}{4}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Source/drain implantation}{4}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Contacts and final structure}{4}{subsection.2.9}%
+\contentsline {section}{\numberline {3}Electrical simulation}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Simulation setup}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Transcharacteristic}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}$I_{OFF}$ and $I_{ON}$}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Threshold voltage and subthreshold slope}{5}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}DIBL}{5}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Conclusions}{6}{section.4}%

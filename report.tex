@@ -1,0 +1,266 @@
+\documentclass[a4paper,11pt]{article}
+
+% ---------- Language and encoding ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+% ---------- Layout ----------
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Integrated Systems Technology}
+\rhead{Laboratory 1}
+\cfoot{\thepage}
+
+% ---------- Math and units ----------
+\usepackage{amsmath,amssymb}
+\usepackage{siunitx}
+
+% ---------- Figures, tables ----------
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\captionsetup{font=small, labelfont=bf}
+\graphicspath{{images/}}   % put screenshots in the "images" folder
+
+% ---------- Code ----------
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{basicstyle=\ttfamily\footnotesize, breaklines=true, frame=single,
+        keywordstyle=\color{blue}, commentstyle=\color{gray}}
+
+% ---------- Helpers ----------
+% Visible reminder of what is still to be written
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+% Placeholder box: replace with \includegraphics when the screenshot is ready
+\newcommand{\figplaceholder}[1]{%
+  \fbox{\parbox{0.8\textwidth}{\centering\vspace{1.5cm}#1\vspace{1.5cm}}}}
+
+\usepackage[hidelinks]{hyperref}
+
+% ---------- Report data: edit here ----------
+\title{\textbf{Integrated Systems Technology}\\[0.5em]
+       Laboratory 1: Bulk MOSFET process and electrical characterization}
+\author{Name Surname \and Name Surname \\ Group N}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+% =====================================================
+\section{Introduction}
+Aim of the laboratory: simulate with Synopsys Sentaurus the fabrication process
+of an n-type bulk MOSFET with nominal gate length $L = \SI{0.18}{\micro\meter}$
+(Sentaurus Process) and then extract its electrical characteristics
+(Sentaurus Device, Sentaurus Inspect).
+\todo{Short description of the workflow and of the tools used: Process, Device, Visual, Inspect.}
+
+% =====================================================
+\section{Process simulation}
+
+\subsection{Substrate definition and initial mesh}
+Initial domain, mesh strategy (fine at the surface, coarser in depth) and
+n-type substrate with $N_D = \SI{e15}{\per\cubic\centi\meter}$ of phosphorus.
+\todo{Comment on the mesh and why it is graded; optional snapshot of Fig.~1.1 equivalent.}
+
+\begin{figure}[H]
+  \centering
+  \figplaceholder{SVISUAL: initial mesh of the substrate}
+  \caption{Initial 2D mesh of the substrate.}
+  \label{fig:mesh_initial}
+\end{figure}
+
+\subsection{Boron implantation (p-well, punch-through stop, $V_{th}$ adjust)}
+Three boron implants (\SI{200}{\kilo\electronvolt}, \SI{80}{\kilo\electronvolt},
+\SI{25}{\kilo\electronvolt}) followed by an anneal at \SI{1050}{\celsius} for
+\SI{10}{\second}.
+
+\begin{figure}[H]
+  \centering
+  \figplaceholder{Inspect: B profiles after each step (.plx files)}
+  \caption{Boron concentration versus depth after each implant and after the anneal.}
+  \label{fig:boron_profiles}
+\end{figure}
+
+\todo{Zoom in, explain the differences between the profiles (peak position and
+height versus energy and dose, effect of the anneal), supported by the .tdr snapshots.}
+
+\subsection{Gate oxide growth}
+Dry oxidation at \SI{850}{\celsius} for \SI{10}{\minute}.
+
+\begin{figure}[H]
+  \centering
+  \figplaceholder{SVISUAL: oxide on the substrate, with ruler measurement}
+  \caption{Gate oxide after thermal oxidation.}
+  \label{fig:oxide}
+\end{figure}
+
+\todo{Oxide thickness measured with the ruler: $t_{ox} = \ldots$ nm.}
+
+\subsection{Gate creation and polysilicon reoxidation}
+Polysilicon deposition (\SI{0.18}{\micro\meter}), patterning with \texttt{gate\_mask}
+(half transistor, mirrored at the end), anisotropic etch of polysilicon and oxide,
+reoxidation at \SI{900}{\celsius} for \SI{10}{\minute}.
+\todo{Snapshots of NMOS1, NMOS2, NMOS3 and a brief comment on each etch step.}
+
+\subsection{LDD implantation}
+Arsenic implant (\SI{4e14}{\per\square\centi\meter}, \SI{10}{\kilo\electronvolt})
+and short anneal. Refinement box defined before the implant.
+\todo{Snapshot of the activated As profile (AsActive) with a suitable range.}
+
+\subsection{HALO implantation}
+Four boron implants with tilt \SI{30}{\degree} and rotations
+\SI{0}{\degree}, \SI{90}{\degree}, \SI{180}{\degree}, \SI{270}{\degree},
+followed by an RTA of \SI{5}{\second} at \SI{1050}{\celsius}.
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.48\textwidth}
+    \centering\figplaceholder{Halo 1}
+    \caption{Halo 1 (rotation \SI{0}{\degree}).}
+  \end{subfigure}\hfill
+  \begin{subfigure}{0.48\textwidth}
+    \centering\figplaceholder{Halo 2}
+    \caption{Halo 2 (rotation \SI{90}{\degree}).}
+  \end{subfigure}
+
+  \vspace{1em}
+  \begin{subfigure}{0.48\textwidth}
+    \centering\figplaceholder{Halo 3}
+    \caption{Halo 3 (rotation \SI{180}{\degree}).}
+  \end{subfigure}\hfill
+  \begin{subfigure}{0.48\textwidth}
+    \centering\figplaceholder{Halo 4}
+    \caption{Halo 4 (rotation \SI{270}{\degree}).}
+  \end{subfigure}
+  \caption{Structure after each HALO implantation.}
+  \label{fig:halo}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \figplaceholder{SVISUAL: structure after Halo RTA (NMOS10)}
+  \caption{Boron profile after the HALO RTA.}
+  \label{fig:halo_rta}
+\end{figure}
+
+\todo{Comment the effect of each of the four implants and of the RTA (symmetry,
+reduction of charge sharing / punch-through).}
+
+\subsection{Spacers formation}
+Isotropic nitride deposition (\SI{60}{\nano\meter}), anisotropic etch with a small
+isotropic overetch, removal of the thin oxide.
+\todo{Snapshots of NMOS11, NMOS12, NMOS13 and a brief comment.}
+
+\subsection{Source/drain implantation}
+Refinement box in the S/D region (coordinates of Fig.~1.11 of the handout, uniform
+spacing of \SI{10}{\nano\meter} along $x$ and \SI{50}{\nano\meter} along $y$).
+
+\begin{lstlisting}
+% paste here the refinebox command lines actually used
+refinebox Silicon min= {...} max= {...} xrefine= {...} yrefine= {...} add
+grid remesh
+\end{lstlisting}
+
+\todo{Comment the command lines (meaning of min, max, xrefine, yrefine, grid remesh).}
+
+\begin{figure}[H]
+  \centering
+  \figplaceholder{SVISUAL zoom with mesh enabled}
+  \caption{Local mesh refinement in the S/D region.}
+  \label{fig:refinebox_sd}
+\end{figure}
+
+Then Arsenic implant (\SI{5e15}{\per\square\centi\meter}, \SI{40}{\kilo\electronvolt},
+tilt \SI{7}{\degree}) and final RTA.
+\todo{Snapshot of NMOS14 and NMOS15.}
+
+\subsection{Contacts and final structure}
+Aluminium deposition and patterning (S/D pads and gate pad), mirroring of the
+half structure (\texttt{transform reflect left}), definition of the contacts
+(substrate, gate, source, drain).
+\todo{Snapshots of NMOS16--NMOS18, of the final structure and of the presimulation structure.}
+
+% =====================================================
+\section{Electrical simulation}
+
+\subsection{Simulation setup}
+Brief description of the \texttt{sdevice\_des.cmd} file: sections File, Electrode,
+Physics (doping-dependent mobility, high-field saturation, SRH), Math and Solve
+(ramp of $V_{DS}$ up to \SI{2}{\volt}, then ramp of $V_{GS}$ up to \SI{2}{\volt}).
+\todo{Add the two additional quasistationary blocks for $V_{DS} = \SI{0.2}{\volt}$ and
+the \texttt{Load} / \texttt{NewCurrentPrefix} lines used.}
+
+\subsection{Transcharacteristic}
+\begin{figure}[H]
+  \centering
+  \figplaceholder{Inspect: $I_{DS}(V_{GS})$, log scale, $V_{DS} = \SI{2}{\volt}$}
+  \caption{$I_{DS}(V_{GS})$ characteristic in semi-logarithmic scale at $V_{DS} = \SI{2}{\volt}$.}
+  \label{fig:idvg_high}
+\end{figure}
+
+\subsection{$I_{OFF}$ and $I_{ON}$}
+\begin{table}[H]
+  \centering
+  \caption{Off and on currents ($V_{DS} = \SI{2}{\volt}$, per \si{\micro\meter} of width).}
+  \label{tab:ion_ioff}
+  \begin{tabular}{lcc}
+    \toprule
+    Quantity & Definition & Value \\
+    \midrule
+    $I_{OFF}$ & $I_{DS}$ at $V_{GS} = \SI{0}{\volt}$ & \todo{value} \si{\ampere\per\micro\meter} \\
+    $I_{ON}$  & $I_{DS}$ at $V_{GS} = \SI{2}{\volt}$ & \todo{value} \si{\ampere\per\micro\meter} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Threshold voltage and subthreshold slope}
+$V_{th}$ from the second-derivative method and SS from the maximum slope of
+$\log_{10} I_{DS}$:
+\begin{equation}
+  V_{th} = V_{GS}\Big|_{\max \frac{d^2 I_{DS}}{dV_{GS}^2}}, \qquad
+  SS = \left[\max \frac{d\,\log_{10} I_{DS}}{dV_{GS}}\right]^{-1}
+\end{equation}
+
+\begin{table}[H]
+  \centering
+  \caption{Figures of merit extracted with Sentaurus Inspect.}
+  \label{tab:fom}
+  \begin{tabular}{lcc}
+    \toprule
+    & $V_{DS} = \SI{0.2}{\volt}$ & $V_{DS} = \SI{2}{\volt}$ \\
+    \midrule
+    $V_{th}$ (\si{\volt})        & \todo{} & \todo{} \\
+    $SS$ (\si{\milli\volt/dec})  & \todo{} & \todo{} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{DIBL}
+\begin{equation}
+  \mathrm{DIBL} = \frac{V_{th}(V_{DS,low}) - V_{th}(V_{DS,high})}{V_{DS,high} - V_{DS,low}}
+  \quad [\si{\milli\volt/\volt}]
+\end{equation}
+\todo{Plot the two transcharacteristics on the same graph, compute DIBL and comment the value.}
+
+\begin{figure}[H]
+  \centering
+  \figplaceholder{Inspect: $I_{DS}(V_{GS})$ at $V_{DS} = \SI{0.2}{\volt}$ and \SI{2}{\volt}}
+  \caption{Transcharacteristics at low and high drain bias.}
+  \label{fig:idvg_both}
+\end{figure}
+
+% =====================================================
+\section{Conclusions}
+\todo{Summarize the main results ($V_{th}$, SS, DIBL, $I_{ON}/I_{OFF}$), comment on the
+role of LDD, HALO and punch-through implants, and on short-channel effects of the
+\SI{0.18}{\micro\meter} device.}
+
+\end{document}
