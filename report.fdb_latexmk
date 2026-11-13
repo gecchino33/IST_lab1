@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1794256892.63272 "c:/Users/gbett/OneDrive/Desktop/IST_lab1/report.tex" "report.pdf" "report" 1794256896.05008 0
+["pdflatex"] 1794576947.0541 "c:/Users/gbett/OneDrive/Desktop/IST_lab1/report.tex" "report.pdf" "report" 1794576949.35868 0
   "C:/Users/gbett/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1794256605 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/gbett/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900.pk" 1794256627 22504 43b5d068364d84d7bac5d7707a976375 ""
   "C:/Users/gbett/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1794256647 25420 41f10d7a894e6ba39d2ef97d202d5851 ""
@@ -152,11 +152,11 @@
   "C:/Users/gbett/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "C:/Users/gbett/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/gbett/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/gbett/OneDrive/Desktop/IST_lab1/report.tex" 1794256893 9848 8c72d0ea9ea93adebca4115e104abc56 ""
-  "report.aux" 1794256895 5423 6ac1f99aa4886dec65e655bb44bc2cce "pdflatex"
-  "report.out" 1794256895 3131 97fa85a114cd4172f038d762dded07a6 "pdflatex"
-  "report.tex" 1794256893 9848 8c72d0ea9ea93adebca4115e104abc56 ""
-  "report.toc" 1794256895 1603 4337843ccf1415239cbf6dd5a803f50a "pdflatex"
+  "c:/Users/gbett/OneDrive/Desktop/IST_lab1/report.tex" 1794576946 9895 07e2cf9bd3cbe40505a3cf5aa52d78cf ""
+  "report.aux" 1794576948 5423 6ac1f99aa4886dec65e655bb44bc2cce "pdflatex"
+  "report.out" 1794576948 3131 97fa85a114cd4172f038d762dded07a6 "pdflatex"
+  "report.tex" 1794576946 9895 07e2cf9bd3cbe40505a3cf5aa52d78cf ""
+  "report.toc" 1794576948 1603 4337843ccf1415239cbf6dd5a803f50a "pdflatex"
   (generated)
   "report.aux"
   "report.log"
